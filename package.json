@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "faker": "^6.6.6",
+    "fs": "^0.0.1-security",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "should": "^13.2.3",
+    "supertest": "^6.3.3",
+    "y": "^0.3.2"
+  },
+  "name": "automaclass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "testar": "mocha ./src/class/test/**/*.js --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
