@@ -1,3 +1,3 @@
-const url = 'https://workflowpagamentoshomologn.azurewebsites.net';
+const url = 'xxxxxxx';
 
 module.exports = url;
